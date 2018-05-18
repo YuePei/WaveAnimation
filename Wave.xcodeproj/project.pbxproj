@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F8FC03620AE66430071ACA8 /* WaveTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8FC03520AE66430071ACA8 /* WaveTool.m */; };
+		9F8FC03A20AE7C600071ACA8 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F8FC03820AE7C600071ACA8 /* 1.png */; };
+		9F8FC03B20AE7C600071ACA8 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F8FC03920AE7C600071ACA8 /* 2.png */; };
 		9F914EA820AD72F000DD5CF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F914EA720AD72F000DD5CF4 /* AppDelegate.m */; };
 		9F914EAB20AD72F000DD5CF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F914EAA20AD72F000DD5CF4 /* ViewController.m */; };
 		9F914EAE20AD72F000DD5CF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F914EAC20AD72F000DD5CF4 /* Main.storyboard */; };
@@ -16,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F8FC03420AE66430071ACA8 /* WaveTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaveTool.h; sourceTree = "<group>"; };
+		9F8FC03520AE66430071ACA8 /* WaveTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaveTool.m; sourceTree = "<group>"; };
+		9F8FC03820AE7C600071ACA8 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		9F8FC03920AE7C600071ACA8 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		9F914EA320AD72F000DD5CF4 /* Wave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wave.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F914EA620AD72F000DD5CF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F914EA720AD72F000DD5CF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,6 +46,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F8FC03720AE7C600071ACA8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9F8FC03820AE7C600071ACA8 /* 1.png */,
+				9F8FC03920AE7C600071ACA8 /* 2.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		9F914E9A20AD72F000DD5CF4 = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +74,13 @@
 		9F914EA520AD72F000DD5CF4 /* Wave */ = {
 			isa = PBXGroup;
 			children = (
+				9F8FC03720AE7C600071ACA8 /* Images */,
 				9F914EA620AD72F000DD5CF4 /* AppDelegate.h */,
 				9F914EA720AD72F000DD5CF4 /* AppDelegate.m */,
 				9F914EA920AD72F000DD5CF4 /* ViewController.h */,
 				9F914EAA20AD72F000DD5CF4 /* ViewController.m */,
+				9F8FC03420AE66430071ACA8 /* WaveTool.h */,
+				9F8FC03520AE66430071ACA8 /* WaveTool.m */,
 				9F914EAC20AD72F000DD5CF4 /* Main.storyboard */,
 				9F914EAF20AD72F000DD5CF4 /* Assets.xcassets */,
 				9F914EB120AD72F000DD5CF4 /* LaunchScreen.storyboard */,
@@ -130,6 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F914EB320AD72F000DD5CF4 /* LaunchScreen.storyboard in Resources */,
+				9F8FC03A20AE7C600071ACA8 /* 1.png in Resources */,
+				9F8FC03B20AE7C600071ACA8 /* 2.png in Resources */,
 				9F914EB020AD72F000DD5CF4 /* Assets.xcassets in Resources */,
 				9F914EAE20AD72F000DD5CF4 /* Main.storyboard in Resources */,
 			);
@@ -144,6 +165,7 @@
 			files = (
 				9F914EAB20AD72F000DD5CF4 /* ViewController.m in Sources */,
 				9F914EB620AD72F000DD5CF4 /* main.m in Sources */,
+				9F8FC03620AE66430071ACA8 /* WaveTool.m in Sources */,
 				9F914EA820AD72F000DD5CF4 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
